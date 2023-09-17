@@ -1,0 +1,110 @@
+.benefits {
+  color: #2e2f42;
+  padding-top: 96px;
+}
+
+.benefits-list {
+  padding-bottom: 24px;
+}
+
+.benefits-list-item {
+  /* width: calc((100% - 72px) / 4); */
+  margin-bottom: 72px;
+  display: block;
+  align-items: center;
+  justify-self: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.benefits-icon {
+  display: none;
+}
+
+.benefits-list-title {
+  color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.benefits-list-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.benefits-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.benefits-icon-container {
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  background: var(--CLOUD, #f4f4fd);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 8px;
+  /* display: flex; */
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+}
+
+@media screen and (min-width: 768px) {
+  .benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    padding: 0;
+  }
+  .benefits-list-item {
+    max-width: 356px;
+  }
+  .benefits {
+    padding: 96px 0;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .benefits-icon {
+    display: flex;
+  }
+  .benefits-icon-container {
+    display: flex;
+  }
+  .benefits-list-item {
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 0;
+  }
+  .benefits {
+    padding: 120px 0;
+  }
+  .benefits-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+    text-align: left;
+  }
+  .benefits-list-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+  }
+  .benefits-container {
+    max-width: 1128px;
+    width: 100%;
+  }
+}
