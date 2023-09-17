@@ -224,6 +224,14 @@
     display: flex;
     flex-direction: row;
   }
+  .footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+    align-items: start;
+    justify-content: start;
+  }
 }
 @media screen and (min-width: 1158px) {
   .foot-container {
@@ -236,19 +244,22 @@
   .social-footer {
     display: inline-block;
     max-width: 220px;
-    gap: 16px;
     margin-right: 80px;
+    margin-bottom: 0;
   }
-  .subscribe-area{
+  .subscribe-area {
     display: inline-block;
   }
-  .foot-container{
+  .foot-container {
     padding: 0;
   }
-  .footer-text{
+  .footer-text {
     min-width: 264px;
   }
-  .subscribe-area{
+  .footer-text-wrapper{
+    margin-right: 100px;
+  }
+  .subscribe-area {
     max-width: 458px;
     display: block;
   }

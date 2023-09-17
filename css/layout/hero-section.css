@@ -64,4 +64,12 @@
     line-height: 60px; /* 107.143% */
     letter-spacing: 1.12px;
   }
+  .hero-section {
+    padding: 112px 0;
+  }
+}
+@media screen and (min-width: 1158px) {
+    .hero-section{
+        padding: 188px 0;
+    }
 }
