@@ -103,17 +103,17 @@
 }
 
 @media screen and (min-width: 768px) {
-    .our-team-list{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        column-gap: 24px;
-        row-gap: 64px;
-    }
+  .our-team-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
-    .our-team-list{
-        flex-wrap: nowrap;
-    }
+  .our-team-list {
+    flex-wrap: nowrap;
+  }
 }
