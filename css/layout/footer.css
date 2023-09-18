@@ -94,13 +94,8 @@
 
 .social-footer-list {
   display: flex;
-  /* flex-direction: column; */
   gap: 16px;
 }
-
-/* .footer-text-wrapper {
-  margin-right: 120px;
-} */
 
 .social-footer-item {
   width: 40px;
@@ -180,7 +175,7 @@
   border-radius: 4px;
 }
 
-.subscribe-btn:hover,
+.subscribe-bgo-linktn:hover,
 .subscribe-btn:focus {
   background-color: #31d0aa;
 }
@@ -191,7 +186,7 @@
 
 @media screen and (min-width: 768px) {
   .footer-text-wrapper {
-    display: inline-block;
+    display: block;
     max-width: 264px;
     margin-bottom: 0;
   }
