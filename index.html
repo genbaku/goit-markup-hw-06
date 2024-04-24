@@ -144,7 +144,7 @@
           </ul>
         </div>
       </section>
-      <section class="our-team">
+      <section class="our-team" id="our-team">
         <div class="our-team-container container">
           <h2 class="our-team-hh">Our Team</h2>
           <ul class="list our-team-list">
@@ -411,7 +411,7 @@
           </ul>
         </div>
       </section>
-      <section class="our-portfolio">
+      <section class="our-portfolio" id="our-portfolio">
         <div class="our-portfolio-container container">
           <h2 class="our-portfolio-hh">Our Portfolio</h2>
           <ul class="our-portfolio-list list">
@@ -759,27 +759,27 @@
       </div>
     </div>
     <div class="mobile-menu">
-      <button class="mobile-menu-close-btn">
-        <svg
-          class="mobile-menu-close-icon"
-          width="8"
-          height="8"
-          aria-label="mobile menu close icon"
-        >
-          <use href="./images/icons.svg#icon-close"></use>
-        </svg>
-      </button>
       <div class="modal-mobile">
+        <button class="mobile-menu-close-btn">
+          <svg
+            class="mobile-menu-close-icon"
+            width="8"
+            height="8"
+            aria-label="mobile menu close icon"
+          >
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
         <nav class="nav-mobile-list">
           <ul class="list">
             <li class="mobile-list-item">
               <a class="link mobile-1st-item" href="#">Studio</a>
             </li>
             <li class="mobile-list-item">
-              <a class="link mobile-list-link" href="#">Contacts</a>
+              <a class="link mobile-list-link" href="#our-team">Contacts</a>
             </li>
             <li class="mobile-list-item">
-              <a class="link mobile-list-link" href="#">Portfolio</a>
+              <a class="link mobile-list-link" href="#our-portfolio">Portfolio</a>
             </li>
           </ul>
         </nav>
@@ -851,5 +851,6 @@
         </div>
       </div>
     </div>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
